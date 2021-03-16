@@ -6,8 +6,6 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-    <link rel="stylesheet" href="../Css/GlobalTool.css">
-    <link rel="stylesheet" href="../Css/GlobalTool2.css">
 <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -23,7 +21,7 @@
                     <i class="fas fa-times"></i>
                 </button>
 
-                <p > <img src="../Assets/medicochat.png" width="50"> Hola! ¿Como puedo ayudarte? </p>
+                <p > <img src="./Assets/medicochat.png" width="50"> Hola! ¿Como puedo ayudarte? </p>
 
             </div>
 			
@@ -46,8 +44,7 @@
         </button>
         <div class="circle-anime"></div>
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
-    <script src="../JavaScript/GlobalTool.js"></script>
+    
 
 
 </body>
