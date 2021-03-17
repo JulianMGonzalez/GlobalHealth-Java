@@ -21,8 +21,9 @@
 />
 </head>
 <body>
-<div class="container">
+<div class="container mt-5 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
 <!-- Pills navs -->
+<div class="container">
 <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
   <li class="nav-item" role="presentation">
     <a
@@ -45,12 +46,11 @@
       role="tab"
       aria-controls="pills-register"
       aria-selected="false"
-      >Register</a
-    >
+      >Register</a>
   </li>
 </ul>
 <!-- Pills navs -->
-
+</div>
 <!-- Pills content -->
 <div class="tab-content container">
   <div
@@ -60,37 +60,16 @@
     aria-labelledby="tab-login"
   >
     <form>
-      <div class="text-center mb-3">
-        <p>Sign in with:</p>
-        <button type="button" class="btn btn-primary btn-floating mx-1">
-          <i class="fab fa-facebook-f"></i>
-        </button>
-
-        <button type="button" class="btn btn-primary btn-floating mx-1">
-          <i class="fab fa-google"></i>
-        </button>
-
-        <button type="button" class="btn btn-primary btn-floating mx-1">
-          <i class="fab fa-twitter"></i>
-        </button>
-
-        <button type="button" class="btn btn-primary btn-floating mx-1">
-          <i class="fab fa-github"></i>
-        </button>
-      </div>
-
-      <p class="text-center">or:</p>
-
       <!-- Email input -->
       <div class="form-outline mb-4">
         <input type="email" id="loginName" class="form-control" />
-        <label class="form-label" for="loginName">Email or username</label>
+        <label class="form-label" for="loginName">Email</label>
       </div>
 
       <!-- Password input -->
       <div class="form-outline mb-4">
         <input type="password" id="loginPassword" class="form-control" />
-        <label class="form-label" for="loginPassword">Password</label>
+        <label class="form-label" for="loginPassword">Contraseña</label>
       </div>
 
       <!-- 2 column grid layout -->
