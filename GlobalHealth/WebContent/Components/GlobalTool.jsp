@@ -1,19 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
-
-<body>
 
     <div class="nav-bottom">
         <div class="popup-whatsapp fadeIn">
@@ -21,7 +7,7 @@
                     <i class="fas fa-times"></i>
                 </button>
 
-                <p > <img src="./Assets/medicochat.png" width="50"> Hola! ¿Como puedo ayudarte? </p>
+                <p > <img src="https://demo1.productech.com.br/wp-content/uploads/2019/04/219840730d3ce3fd29bba2dfcb5914a1-mulher-de-m-dico-de-car-ter-by-vexels.png" width="50"> Hola! ¿Como puedo ayudarte? </p>
 
             </div>
 			
@@ -45,7 +31,4 @@
         <div class="circle-anime"></div>
     </div>
     
-
-
-</body>
-</html>
+    

@@ -6,7 +6,7 @@
 			<!-- Left elements -->
 			<div class="d-flex">
 				<!-- Brand -->
-				<a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+				<a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="/">
 					<img
 					src="https://www.cruzroja.org.pe/wp-content/uploads/2018/05/salud-y-seguridad.png"
 					height="90" width="100" alt="" loading="lazy"
@@ -37,7 +37,6 @@
 
 			</div>
 			<!-- Center elements -->
-
 		</div>
 	</nav>
 	<div class="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,10 +53,9 @@
                 
 				<ul id="lista1" class="navbar-nav navbar-nav-scroll mx-auto">
 
-					<li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="/GlobalHealth">Inicio</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Conócenos</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Iniciar Sesión</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Registrar</a></li>
+					<li class="nav-item"><a class="nav-link" href="Pages/Login.jsp">Cuenta</a></li>
 				</ul>
 				
 			</div>

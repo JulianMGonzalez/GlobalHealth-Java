@@ -2,14 +2,13 @@
 	pageEncoding="UTF-8"%>
 
 	<!-- Carousel wrapper -->
-	<div id="carouselExampleControls" class="carousel slide text-center"
-		data-mdb-ride="carousel">
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">
 
 		<!-- Inner -->
 		<div class="carousel-inner py-4">
 			<!-- Single item -->
 			<div class="carousel-item active">
-				<div class="container">
+				<div class="container text-center">
 					<div class="row">
 						<% for(int i=1; i<=3; i++){
 								%>
@@ -32,7 +31,7 @@
 
 			<!-- Single item -->
 			<div class="carousel-item">
-				<div class="container">
+				<div class="container text-center">
 					<div class="row">
 						<% for(int j=4; j<=6; j++){
 								%>
@@ -55,18 +54,7 @@
 
 		</div>
 		<!-- Inner -->
-		<div class="container">
-			<button class="carousel-control-prev visually-hidden" type="button"
-				data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next visually-hidden" type="button"
-				data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
+		
 	</div>
 
 	<!-- Carousel wrapper -->

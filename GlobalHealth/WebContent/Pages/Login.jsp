@@ -1,10 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Login</title>
+<meta charset="UTF-8">
+<title>Cuenta</title>
+
+<link rel="stylesheet" type="text/css" href="../Css/NavGlobal.css" />
+<link rel="stylesheet" href="../Css/GlobalTool.css">
+<link rel="stylesheet" href="../Css/GlobalTool2.css">
 <link
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
 	rel="stylesheet" />
@@ -16,7 +20,6 @@
 <link
 	href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
 	rel="stylesheet" />
-<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -32,6 +35,10 @@
 <!-- Icons -->
 </head>
 <body>
+	<!-- Menu -->
+	<%@ include file="../Components/NavGlobal.jsp"%>
+	<!--  -->
+
 	<div
 		class="container mt-5 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
 		<!-- Pills navs -->
@@ -40,7 +47,7 @@
 				<li class="nav-item" role="presentation"><a
 					class="nav-link active" id="tab-login" data-mdb-toggle="pill"
 					href="#pills-login" role="tab" aria-controls="pills-login"
-					aria-selected="true">Iniciar Sesión</a></li>
+					aria-selected="true">Iniciar SesiÃ³n</a></li>
 				<li class="nav-item" role="presentation"><a class="nav-link"
 					id="tab-register" data-mdb-toggle="pill" href="#pills-register"
 					role="tab" aria-controls="pills-register" aria-selected="false">Registrar</a>
@@ -87,7 +94,7 @@
 					<!-- Password input -->
 					<div class="mb-4">
 						<input type="password" id="loginPassword" class="form-control"
-							placeholder="Contraseña" /> <label class="form-label"
+							placeholder="ContraseÃ±a" /> <label class="form-label"
 							for="loginPassword"></label>
 					</div>
 
@@ -104,20 +111,20 @@
 
 						<div class="col-md-6 d-flex justify-content-center">
 							<!-- Simple link -->
-							<a href="#!">Olvidó tu contraseña?</a>
+							<a href="#!">OlvidÃ³ tu contraseÃ±a?</a>
 						</div>
 					</div>
 
 					<!-- Submit button -->
 					<button type="submit" class="btn btn-primary btn-block mb-4">Iniciar
-						Sesión</button>
+						SesiÃ³n</button>
 
 					<!-- Register buttons -->
 				</form>
 			</div>
 			<div class="tab-pane fade" id="pills-register" role="tabpanel"
 				aria-labelledby="tab-register">
-				<form action="" id="registrar">
+				<form id="registrar" action="">
 					<div class="text-center mb-3">
 						<p>Sign up with:</p>
 						<button type="button" class="btn btn-primary btn-floating mx-1">
@@ -136,55 +143,46 @@
 							<i class="fab fa-github"></i>
 						</button>
 					</div>
-
-					<p class="text-center">or:</p>
-
-					<!-- Name input -->
-					<div class="form-outline mb-4 form-grup">
-						<input type="text" id="name" class="form-control" /> <label
-							class="form-label" for="registerName"> Nombres</label>
+					<div class="form-group">
+						<input name="name" id="name" type="text" class="form-control"
+							placeholder="Enter username">
 					</div>
-					<div class="form-outline mb-4 form-grup">
-						<input type="text" id="name" class="form-control" /> <label
-							class="form-label" for="registerName"> Apellidos</label>
+					<div class="form-group">
+						<input name="email" id="email" type="email" class="form-control"
+							placeholder="ejemplo@dominio.com">
 					</div>
-					<div class="form-outline mb-4 form-grup">
-						<input type="text" id="gmail" class="form-control" /> <label
-							class="form-label" for="registerName"> Gmail</label>
+					<div class="form-group">
+						<input name="password" id="password" type="password"
+							class="form-control" placeholder="Password"> 
+						<input name="confirm" id="confirm" type="password" class="form-control"
+							placeholder="Confirm Password">
 					</div>
-
-					<!-- Password input -->
-					<div class="form-outline mb-4">
-						<input type="password" id="password" class="form-control" /> <label
-							class="form-label" for="registerPassword">Contraseña</label>
-					</div>
-					<br>
-					<!-- Repeat Password input -->
-					<div class="form-outline mb-4">
-						<input type="password" id="registerRepeatPassword"
-							class="form-control" /> <label class="form-label"
-							for="registerRepeatPassword">Repeat password</label>
-					</div>
-
-					<!-- Checkbox -->
-					<div class="form-check d-flex justify-content-center mb-4">
+					      
+					<div class="form-check d-flex justify-content-center my-4">
 						<input class="form-check-input me-2" type="checkbox" value=""
-							id="registerCheck" checked
+							id="check" checked
 							aria-describedby="registerCheckHelpText" /> <label
 							class="form-check-label" for="registerCheck"> I have read
 							and agree to the terms </label>
 					</div>
-
-					<!-- Submit button -->
-					<button type="submit" class="btn btn-primary btn-block mb-3">Sign
-						in</button>
+					<input type="submit" class="btn btn-primary btn-block mt-5"
+						value="Submit Form">
+						
 				</form>
 			</div>
 		</div>
 	</div>
-	<!-- Pills content -->
-	<div></div>
+
+	<!-- Footer -->
+	<%@ include file="../Components/GlobalTool.jsp"%>
+	<!--  -->
+
+	<!-- Footer -->
+	<%@ include file="../Components/FooterGlobal.jsp"%>
+	<!--  -->
+
 </body>
+<script src="../JavaScript/GlobalTool.js" type="text/javascript"></script>
 <script type="text/javascript"
 	src="../JavaScript/bs4-form-validation.min.js"></script>
 <script type="text/javascript">
