@@ -22,7 +22,7 @@
 <body>
 	<section id="team" class="pb-5">
 		<div class="container mt-5">
-			<h5 class="section-title h1">Nuestro Equipo</h5>
+			<h5 id="titulo" class="section-title h1">Nuestro Equipo</h5>
 			<div class="row">
 				<!-- Team member -->
 				<div class="col-xs-12 col-sm-6 col-md-4">
