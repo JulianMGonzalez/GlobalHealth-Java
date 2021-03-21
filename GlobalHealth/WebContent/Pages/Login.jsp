@@ -59,15 +59,10 @@
 		<div class="tab-content container">
 			<div class="tab-pane fade show active" id="pills-login"
 				role="tabpanel" aria-labelledby="tab-login">
-				<form action="">
+				<form action="../Control" method="get">
 					<div class="text-center mb-3">
-						<a target="_blank"
-							href="https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fsigninoptions%2Fpassword%3Fhl%3Des&amp;service=accountsettings&amp;hl=es&amp;osid=1&amp;rart=ANgoxcerNZPj4qYrZdIdQuzzH9kb75pxXmBBr6lvJTrLLP0YT_ZDlyxUfVK0RT9sVSqufCL850uzMXywmWC-L9SD5bBojkc_iA&amp;TL=AM3QAYaXIyKQ0SW1ACawOSW68L2Kd88emxZa4UPkTN-3KWPGm_mCB-8cfyXZ7yH0&amp;flowName=GlifWebSignIn&amp;cid=1&amp;flowEntry=ServiceLogin">
-							<p>Iniciar con:</p>
-							<button type="button" class="btn btn-primary btn-floating mx-1">
-								<i class="far fa-envelope"></i>
-							</button>
-						</a>
+						<p>Iniciar con:</p>
+					
 						<button type="button" class="btn btn-primary btn-floating mx-1">
 							<i class="fab fa-facebook-f"></i>
 						</button>
@@ -76,25 +71,18 @@
 							<i class="fab fa-google"></i>
 						</button>
 
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-twitter"></i>
-						</button>
-
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-github"></i>
-						</button>
 					</div>
 
 					<!-- Email input -->
 					<div class="mb-4">
 						<input type="email" id="loginName" class="form-control"
-							placeholder="Email" /> <label class="form-label" for="loginName"></label>
+							placeholder="Email" name="email"/> <label class="form-label" for="loginName"></label>
 					</div>
 
 					<!-- Password input -->
 					<div class="mb-4">
 						<input type="password" id="loginPassword" class="form-control"
-							placeholder="Contraseña" /> <label class="form-label"
+							placeholder="Contraseña" name="contraseña"/> <label class="form-label"
 							for="loginPassword"></label>
 					</div>
 
@@ -111,13 +99,12 @@
 
 						<div class="col-md-6 d-flex justify-content-center">
 							<!-- Simple link -->
-							<a href="#!">Olvidó tu contraseña?</a>
+							<a href="#!">Olvidaste tu contraseña?</a>
 						</div>
 					</div>
 
 					<!-- Submit button -->
-					<button type="submit" class="btn btn-primary btn-block mb-4">Iniciar
-						Sesión</button>
+					<input type="submit" class="btn btn-primary btn-block mb-4" name="accion" value="ingresar"></input>
 
 					<!-- Register buttons -->
 				</form>
@@ -126,7 +113,7 @@
 				aria-labelledby="tab-register">
 				<form id="registrar" action="">
 					<div class="text-center mb-3">
-						<p>Sign up with:</p>
+						<p>Registrate con:</p>
 						<button type="button" class="btn btn-primary btn-floating mx-1">
 							<i class="fab fa-facebook-f"></i>
 						</button>
@@ -135,17 +122,11 @@
 							<i class="fab fa-google"></i>
 						</button>
 
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-twitter"></i>
-						</button>
-
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-github"></i>
-						</button>
+						
 					</div>
 					<div class="form-group">
 						<input name="name" id="name" type="text" class="form-control"
-							placeholder="Enter username">
+							placeholder="Nombre">
 					</div>
 					<div class="form-group">
 						<input name="email" id="email" type="email" class="form-control"
@@ -153,20 +134,19 @@
 					</div>
 					<div class="form-group">
 						<input name="password" id="password" type="password"
-							class="form-control" placeholder="Password"> 
+							class="form-control" placeholder="Contraseña"> 
 						<input name="confirm" id="confirm" type="password" class="form-control"
-							placeholder="Confirm Password">
+							placeholder="Confirmar Contraseña">
 					</div>
 					      
 					<div class="form-check d-flex justify-content-center my-4">
 						<input class="form-check-input me-2" type="checkbox" value=""
 							id="check" checked
 							aria-describedby="registerCheckHelpText" /> <label
-							class="form-check-label" for="registerCheck"> I have read
-							and agree to the terms </label>
+							class="form-check-label" for="registerCheck"> He leido y acepto los terminos y condiciones </label>
 					</div>
 					<input type="submit" class="btn btn-primary btn-block mt-5"
-						value="Submit Form">
+						value="Registrar">
 						
 				</form>
 			</div>
