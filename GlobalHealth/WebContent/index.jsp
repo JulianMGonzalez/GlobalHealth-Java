@@ -8,6 +8,7 @@
 	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <title>Git testing in JAVA</title>
 <link rel="stylesheet" type="text/css" href="./Css/NavGlobal.css" />
+<link rel="stylesheet" href="./Css/Equipo.css">
 <link rel="stylesheet" href="./Css/GlobalTool.css">
 <link rel="stylesheet" href="./Css/GlobalTool2.css">
 <link
@@ -30,7 +31,11 @@
 <body>
 
  <%@ include file="Components/NavGlobal.jsp" %>
- <%@ include file="Components/ServiciosCard.jsp" %>
+ <%@ include file="Components/HomeCarousel.jsp" %>
+ <!--  -->
+<%--  <%@ include file="Components/ServiciosCard.jsp" %><!-- Este componente tiene un error, pero es del wildfly, para activar es solo descomentarlo --> --%>
+ <%@ include file="Components/Equipo.jsp" %>
+ 
  <%@ include file="Components/GlobalTool.jsp" %>
  <%@ include file="Components/FooterGlobal.jsp" %>
 

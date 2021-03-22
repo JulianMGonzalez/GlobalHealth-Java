@@ -1,28 +1,9 @@
-<%@ page language="java" contentType="text/html; UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Nosotros</title>
-<!-- Font Awesome -->
-<link
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-	rel="stylesheet" />
-<!-- Google Fonts -->
-<link
-	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
-	rel="stylesheet" />
-<!-- MDB -->
-<link
-	href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
-	rel="stylesheet" />
-<link rel="stylesheet" href="../Css/Equipo.css">
-</head>
-<body>
-	<section id="team" class="pb-5">
+	
+<section id="team" class="pb-5">
 		<div class="container mt-5">
-			<h5 id="titulo" class="section-title h1">Nuestro Equipo</h5>
+			<h5  class="titulo fw-bolder fs-3 text-center mb-3">NUESTRO EQUIPO</h5>
 			<div class="row">
 				<!-- Team member -->
 				<div class="col-xs-12 col-sm-6 col-md-4">
@@ -37,8 +18,7 @@
 												alt="card image">
 										</p>
 										<h4 class="card-title">Julián David Gonzalez Montero</h4>
-										<p class="card-text text-white">This is basic card with
-											image on top, title, description and button.</p>
+										<p class="card-text text-white">Universidad Surcolombiana</p>
 									</div>
 								</div>
 							</div>
@@ -92,8 +72,7 @@
 										</p>
 										<h4 class="card-title">Julian Carranza Capera</h4>
 										<br>
-										<p class="card-text text-white">This is basic card with
-											image on top, title, description and button.</p>
+										<p class="card-text text-white">Universidad Surcolombiana</p>
 									</div>
 								</div>
 							</div>
@@ -147,8 +126,7 @@
 										</p>
 										<h4 class="card-title">Laura Vargas Perdomo</h4>
 										<br>
-										<p class="card-text text-white">This is basic card with
-											image on top, title, description and button.</p>
+										<p class="card-text text-white">Universidad Surcolombiana</p>
 									</div>
 								</div>
 							</div>
@@ -189,9 +167,3 @@
 			</div>
 		</div>
 	</section>
-	<!-- Team -->
-</body>
-<!-- MDB -->
-<script type="text/javascript"
-	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
-</html>
