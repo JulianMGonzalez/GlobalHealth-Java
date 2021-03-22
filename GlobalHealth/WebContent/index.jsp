@@ -6,7 +6,8 @@
 <meta charset="UTF-8">
 <meta name="viewport"
 	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<title>Git testing in JAVA</title>
+<link rel="icon" href="https://www.cruzroja.org.pe/wp-content/uploads/2018/05/salud-y-seguridad.png">
+<title>GlobalHealth</title>
 <link rel="stylesheet" type="text/css" href="./Css/NavGlobal.css" />
 <link rel="stylesheet" href="./Css/Equipo.css">
 <link rel="stylesheet" href="./Css/GlobalTool.css">
