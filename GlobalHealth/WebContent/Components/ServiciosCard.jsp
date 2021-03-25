@@ -26,7 +26,7 @@
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="card">
-							<img src="./Assets/servicio1.jpg" class="card-img-top" alt="..." />
+							<img src="../Assets/servicio1.jpg" class="card-img-top" alt="..." />
 							<div class="card-body">
 								<a href="#!" class="btn btn-primary btn-rounded">Ver Mas</a>
 							</div>
@@ -36,7 +36,7 @@
 								%>
 					<div class="col-lg-4 d-none d-lg-block">
 						<div class="card">
-							<img src="./Assets/servicio<%=i%>.jpg"
+							<img src="../Assets/servicio<%=i%>.jpg"
 								class="card-img-top img-fluid hover-shadow" alt="..." />
 							<div class="card-body">
 								<a href="servicios.jsp" class="btn btn-primary btn-rounded">Ver
@@ -57,7 +57,7 @@
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="card">
-							<img src="./Assets/servicio4.jpg" class="card-img-top" alt="..." />
+							<img src="../Assets/servicio4.jpg" class="card-img-top" alt="..." />
 							<div class="card-body">
 								<a href="#!" class="btn btn-primary btn-rounded">Ver Mas</a>
 							</div>
@@ -67,7 +67,7 @@
 								%>
 					<div class="col-lg-4 d-none d-lg-block">
 						<div class="card">
-							<img src="./Assets/servicio<%=j%>.jpg"
+							<img src="../Assets/servicio<%=j%>.jpg"
 								class="card-img-top img-fluid hover-shadow" alt="..." />
 							<div class="card-body">
 								<a href="servicios.jsp" class="btn btn-primary btn-rounded">Ver

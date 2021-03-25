@@ -74,14 +74,14 @@
 
 .frontside .card, 
 .backside .card{
-    min-height: 320px;
+    min-height: 120px;
 }
 
 
 .backside .card a {
     font-size: 18px;
     color: #000080!important;
-    height: 260px;
+    height: 100px;
 }
 
 .frontside .card .card-title,

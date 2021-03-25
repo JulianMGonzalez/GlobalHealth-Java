@@ -55,7 +55,8 @@
 
 					<li class="nav-item"><a class="nav-link" href="/GlobalHealth">Inicio</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Conócenos</a></li>
-					<li class="nav-item"><a class="nav-link" href="Pages/Login.jsp">Cuenta</a></li>
+					<li class="nav-item"><a class="nav-link" href="../Pages/Store.jsp">Tienda</a></li>
+					<li class="nav-item"><a class="nav-link" href="../Pages/Login.jsp">Cuenta</a></li>
 				</ul>
 				
 			</div>

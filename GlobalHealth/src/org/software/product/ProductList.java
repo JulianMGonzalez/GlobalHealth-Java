@@ -12,7 +12,6 @@ public class ProductList {
 	}
 
 	public ProductList(List<Product> items) {
-
 		this.items = items;
 	}
 

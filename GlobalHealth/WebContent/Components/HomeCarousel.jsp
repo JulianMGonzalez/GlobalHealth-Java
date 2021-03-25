@@ -15,14 +15,14 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				
-					<img src="./Assets/banner1.jpg" 
+					<img src="../Assets/banner1.jpg" 
 						class="d-block w-100" alt="" height="500px" >
 			</div>
 			<% 
 			for(int i=2; i<=3; i++){
 			%>
 			<div class="carousel-item" data-bs-interval="400">
-				<img src="./Assets/banner<%=i%>.jpg"
+				<img src="../Assets/banner<%=i%>.jpg"
 					class="d-block w-100" alt="" height="500px">
 			</div>
 			<% 

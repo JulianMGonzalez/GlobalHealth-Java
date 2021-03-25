@@ -1,114 +1,46 @@
-
-.dr-menu {
-	max-width: 200px;
-	min-width: 200px;
-	min-height: 100px;
-	position: relative;
-	font-size: 1.3em;
-	line-height: 2.5;
-	font-weight: 400;
-	padding-top: 2em;
-	cursor: pointer;
-	position: absolute;
-	width: 50%;
-	z-index: 100;
+.single {
+	padding: 30px 15px;
+	margin-top: 40px;
+	background: #fcfcfc;
+	border: 1px solid #f0f0f0;
 }
-.dr-menu > div .dr-label {
-	position: center;
-	display: block;
-	color: #000000;
-	font-size: 0.9em;
-	font-weight: 700;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-}
-/* hace efecto de despliege */
-/* .dr-menu.dr-menu-open > div .dr-label {
-	-webkit-transform: translateY(-90%);
-	-moz-transform: translateY(-90%);
-	-ms-transform: translateY(-90%);
-	transform: translateY(-90%);
-} */
 
-.dr-menu ul {
+.single h3.side-title {
+	margin: 0;
+	margin-bottom: 10px;
 	padding: 0;
-	margin: 0 3em 0 0;
-	list-style: none;
-	opacity: 0;
-	position: relative;
-	z-index: 0;
-	pointer-events: none;
-	-webkit-transition: opacity 0s linear 205ms;
-	-moz-transition: opacity 0s linear 205ms;
-	transition: opacity 0s linear 205ms;
+	font-size: 20px;
+	color: #333;
+	text-transform: uppercase;
 }
-/* diseño de la lista */
-.dr-menu.dr-menu-open ul {
-	opacity: 1;
-	z-index: 200;
-	pointer-events: auto;
-	-webkit-transition: opacity 0s linear 0s;
-	-moz-transition: opacity 0s linear 0s;
-	transition: opacity 0s linear 0s;
-} 
-/* perimite hacer el click y muesta lista */
-/* .dr-menu ul li {
+
+.single h3.side-title:after {
+	content: '';
+	width: 60px;
+	height: 1px;
+	background: #ff173c;
 	display: block;
-	margin: 0 0 5px 0;
-	opacity: 0;
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
-	color: #000080;
-}
- */
-.dr-menu.dr-menu-open ul li {
-	opacity: 1;
-}
-.dr-menu ul li a {
-	display: inline-block;
-	padding: 0 20px;
-	color: #000000;
+	margin-top: 6px;
 }
 
-.dr-menu ul li a:hover {
-	color: #000080;
-}
-.dr-menu ul .dr-icon:before {
-	margin-right: 15px;
+.single ul {
+	margin-bottom: 0;
 }
 
-.dr-icon-bullhorn:before {
-	content: "\e000";
+.single li a {
+	color: #666;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #f0f0f0;
+	line-height: 40px;
+	display: block;
+	text-decoration: none;
 }
 
-.dr-icon-camera:before {
-	content: "\e002";
+.single li a:hover {
+	color: #ff173c;
 }
 
-.dr-icon-heart:before {
-	content: "\e003";
-}
-
-.dr-icon-settings:before {
-	content: "\e004";
-}
-
-.dr-icon-switch:before {
-	content: "\e005";
-}
-
-.dr-icon-download:before {
-	content: "\e006";
-}
-
-.dr-icon-user:before {
-	content: "\e001";
-}
-
-.dr-icon-menu:before {
-	content: "\e007";
+.single li:last-child a {
+	border-bottom: 0;
 }

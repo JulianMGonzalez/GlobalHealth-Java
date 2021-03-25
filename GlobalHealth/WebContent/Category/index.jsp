@@ -65,7 +65,7 @@
 				<tr>
 					<th>Id</th>
 					<th>Name</th>
-					<th>Icon</th>
+					<th>Iconos</th>
 					<th>Published</th>
 				</tr>
 			</tfoot>
@@ -80,7 +80,7 @@
 						<div class="modal-header">
 							<h5 class="modal-title" id="exampleModalLabel">Category Form</h5>
 							<button type="button" class="close" data-dismiss="modal"
-								aria-label="Close">
+								aria-hidden="true">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
