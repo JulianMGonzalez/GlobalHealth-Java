@@ -1,0 +1,8 @@
+.efecto img{
+  transition: all 500ms ease;
+  
+}
+.efecto img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
