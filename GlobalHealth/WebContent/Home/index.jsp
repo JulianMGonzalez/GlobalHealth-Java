@@ -9,6 +9,7 @@
 <link rel="icon" href="https://www.cruzroja.org.pe/wp-content/uploads/2018/05/salud-y-seguridad.png">
 <title>GlobalHealth</title>
 <link rel="stylesheet" type="text/css" href="../Css/NavGlobal.css" />
+<link rel="stylesheet" href="../Css/thumbnail-gallery.css">
 <link rel="stylesheet" href="../Css/Equipo.css">
 <link rel="stylesheet" href="../Css/GlobalTool.css">
 <link rel="stylesheet" href="../Css/GlobalTool2.css">
@@ -35,13 +36,17 @@
  <%@ include file="../Components/HomeCarousel.jsp" %>
  <!--  -->
  <%@ include file="../Components/ServiciosCard.jsp" %>
+<%--  <%@ include file="../Components/Statistics.jsp" %> --%>
+  
  <%@ include file="../Components/Equipo.jsp" %>
+ 
  
  <%@ include file="../Components/GlobalTool.jsp" %>
  <%@ include file="../Components/FooterGlobal.jsp" %>
 
 
 <script src="../JavaScript/GlobalTool.js"></script>
+<script type="text/javascript" src="../JavaScript/Shop.js"></script>
 	<!-- Option 1: Bootstrap Bundle with Popper -->
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

@@ -21,7 +21,6 @@
 
 <div class="container gallery-container">
     <h1>Boletín Estadístico</h1>
-    <p class="page-description text-center"> La Superintendencia Nacional de Salud presenta a todos los usuarios y actores del Sistema General de Seguridad Social en Salud, información estadística relevante de la gestión misional a través de los boletines estadísticos anuales.</p>
     <div class="tz-gallery">
         <div class="row">
             <div class="col-sm-6 col-md-4">

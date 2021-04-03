@@ -69,3 +69,16 @@ function getProducts(category_id) {
 		}
 	});
 }
+function updateItemsCount(){
+	$.getJSON("../ws/cart/items", function(json) {
+		var items = json.items;
+		$("#shopping_cart").text(items);
+	});
+}
+
+function addToCart(product_id){
+	$.getJSON("../ws/cart/add/" + product_id, function(json) {
+		var items = json.items;
+		$("#shopping_cart").text(items);
+	});
+}

@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<body>
+
 	<div class="mt-6">
 
 		<footer
@@ -35,19 +33,19 @@
 					<!--Grid column-->
 					<div class="col-lg-5 col-md-5 mb-4 mb-lg-0">
 						<h5 class="mb-4 justify-content-center text-center">GlobalHealth</h5>
-						<p class="mb-4 justify-content">Se decidiÃ³ trabajar en un
+						<p class="mb-4 justify-content">Se decidió trabajar en un
 							software para un hospital, teniendo en cuenta de que muchas de
 							este tipo de instituciones no cuentan con un control de la
-							informaciÃ³n, ni mucho menos facilidad para acceder a informaciÃ³n
-							bÃ¡sica por parte de un paciente; nuestro proyecto facilitarÃ¡ el
-							trabajo a mÃ©dicos, administrativos y pacientes.</p>
+							información, ni mucho menos facilidad para acceder a información
+							básica por parte de un paciente; nuestro proyecto facilitará el
+							trabajo a médicos, administrativos y pacientes.</p>
 
 					</div>
 					<!--Grid column-->
 
 					<!--Grid column-->
 					<div class=" text-white col-lg-2 col-md-2 mb-4 mb-lg-0">
-						<h5 class="mb-4">CaracterÃ­sticas</h5>
+						<h5 class="mb-4">Características</h5>
 						<ul class="text-white list-unstyled">
 							<li><a class="nav-link text-white" target="_blank" href="#">
 									Cuenta</a></li>
@@ -55,7 +53,7 @@
 									Agendar cita</a></li>
 
 							<li><a class="nav-link text-white" target="_blank" href="#">
-									CompaÃ±ia</a></li>
+									Compañia</a></li>
 						</ul>
 					</div>
 					<!--Grid column-->
@@ -69,10 +67,10 @@
 						<ul class="text-white list-unstyled">
 							<li><a class="nav-link text-white" target="_blank"
 								href="https://www.youtube.com"><span class="text-white">
-								</span> TelÃ©fono</a></li>
+								</span> Teléfono</a></li>
 							<li><a class="nav-link text-white" target="_blank"
 								href="https://www.google.com/maps/place/Cl.+5,+Guadalupe,+Huila/@2.0265407,-75.7580773,17z/data=!3m1!4b1!4m5!3m4!1s0x8e251e5eb6a91c91:0x4b61e37c9db22a1e!8m2!3d2.0265353!4d-75.7558886?hl=es"><span
-									class="text-white"> </span> DirecciÃ³n</a></li>
+									class="text-white"> </span> Dirección</a></li>
 							<li><a class="nav-link text-white" target="_blank" href="#"><span
 									class="text-white"> </span> Preguntas frecuentes</a></li>
 
@@ -105,10 +103,6 @@
 		</footer>
 
 	</div>
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-		crossorigin="anonymous" type="text/javascript"></script>
 
 <style type="text/css">
 footer {

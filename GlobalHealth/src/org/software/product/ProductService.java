@@ -103,6 +103,7 @@ public class ProductService {
 				product.setShort_description(short_description);
 				product.setLong_description(long_description);
 				product.setIcon(icon);
+				product.setMedia(media);
 				
 				productList.add(product);
 			}

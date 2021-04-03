@@ -25,10 +25,8 @@ public class DataBase {
 		if (profile.equals("admin")) {
 			JndiDataSourceName = "globalhealthAdminDS";
 
-			/*
-			 * user = "global_health_admin"; 
-			 * password = "globaladmin123";
-			 */
+//			 user = "global_health_admin"; 
+//			 password = "globaladmin123";
 		}
 		if (profile.equals("doctor")) {
 			JndiDataSourceName = "globalhealthDoctorDS";
@@ -38,6 +36,7 @@ public class DataBase {
 		}
 		if (profile.equals("guest")) {
 			JndiDataSourceName = "globalhealthGuestDS";
+			
 //			user = "global_health_guest";
 //			password = "invitado123";
 		}
@@ -45,7 +44,7 @@ public class DataBase {
 			 InitialContext ctx = new InitialContext();
 			 DataSource ds = (DataSource)ctx.lookup(JndiDataSourceName);
 			 connection = ds.getConnection();
-
+//
 //			Class.forName(driver);
 //			connection = DriverManager.getConnection(url, user, password);
 		} catch (Exception e) {

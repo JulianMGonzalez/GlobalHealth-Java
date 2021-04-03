@@ -59,7 +59,7 @@
 		<div class="tab-content container">
 			<div class="tab-pane fade show active" id="pills-login"
 				role="tabpanel" aria-labelledby="tab-login">
-				<form action="../Control" method="get">
+				<form  action="./j_security_check" method="post">
 					<div class="text-center mb-3">
 						<p>Iniciar con:</p>
 					
@@ -75,14 +75,14 @@
 
 					<!-- Email input -->
 					<div class="mb-4">
-						<input type="email" id="loginName" class="form-control"
-							placeholder="Email" name="email"/> <label class="form-label" for="loginName"></label>
+						<input type="text" class="form-control" name="j_username"
+							placeholder="Email"/> <label class="form-label" for="loginName"></label>
 					</div>
 
 					<!-- Password input -->
 					<div class="mb-4">
-						<input type="password" id="loginPassword" class="form-control"
-							placeholder="Contraseña" name="contraseña"/> <label class="form-label"
+						<input type="password" id="loginPassword" class="form-control" name="j_password"
+							placeholder="Contraseña"/> <label class="form-label"
 							for="loginPassword"></label>
 					</div>
 
@@ -163,8 +163,7 @@
 
 </body>
 <script src="../JavaScript/GlobalTool.js" type="text/javascript"></script>
-<script type="text/javascript"
-	src="../JavaScript/bs4-form-validation.min.js"></script>
+<script type="text/javascript" src="../JavaScript/bs4-form-validation.min.js"></script>
 <script type="text/javascript">
         // Create object
         let form = new Validation("registrar");
