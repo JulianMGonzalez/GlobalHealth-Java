@@ -30,9 +30,9 @@ function getProducts(category_id) {
 			var icon = data[row].icon;
 			var pricing = data[row].pricing;
 			var short_description = data[row].short_description;
-			var url = "../item.jsp?id=" + id;
+			var url = "../item/index.jsp?id=" + id;
 			var item = '<div class="col-lg-4 col-md-6 mb-4">';
-			item += '<div class="image-flip">';
+			item += '<div class="image-flip mt-5">';
 			item += '<div class="mainflip flip-0">';
 			item += '<div class="frontside">';
 			item += '<div class="card">';
@@ -42,7 +42,7 @@ function getProducts(category_id) {
 			item += '</a>';
 			item += '</div>';
 			item += '<div class="card-body text-center">';
-			item += '<h5>M1</h5>';
+			item += '<h5>GlobalHealth</h5>';
 			item += '<h5 class="card-title"><strong>';
 			item += '<a href="' + url + '" class="aling-center">' + name + '</a></strong>';
 			item += '</h5>';
@@ -55,11 +55,10 @@ function getProducts(category_id) {
 			item += '<h4 class="mt-3">Información del producto</h4>';
 			item += '<p>' + short_description + '</p>';
 			item += '<div class="input-group-append">';
-			item += '<button id="button-addon1" type="submit" class="btn btn-link">';
-			item += '<i class="fas fa-cart-plus"></i>';
-			item += '</button>';
+			item += '<a href="javascript:addToCart(' + id + ');" class="btn btn-info" role="button">'
+			item += '<i class="fas fa-cart-plus"></i></a>';
 			item += '</div>';
-			item += '<a href="'+ url +'">Ver más</a>';
+			item += '<a id="link_title" href="'+ url +'">Ver más</a>';
 			item += '</div>';
 			item += '</div>';
 			item += '</div>';

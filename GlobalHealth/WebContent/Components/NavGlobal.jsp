@@ -11,7 +11,7 @@
 		<!-- Left elements -->
 		<div class="d-flex">
 			<!-- Brand -->
-			<a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="/GlobalHealth">
+			<a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="/globalhealth">
 				<img
 				src="https://www.cruzroja.org.pe/wp-content/uploads/2018/05/salud-y-seguridad.png"
 				height="90" width="100" alt="" loading="lazy"
@@ -55,7 +55,7 @@
 
 			<ul id="lista1" class="navbar-nav navbar-nav-scroll mx-auto">
 
-				<li class="nav-item"><a class="nav-link" href="/GlobalHealth">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="/globalhealth">Inicio</a></li>
 				<li class="nav-item"><a class="nav-link" href="../Pages/Services.jsp">Conócenos</a></li>
 				<li class="nav-item"><a class="nav-link" href="../Pages/Store.jsp">Tienda</a></li>
 				<%
@@ -73,8 +73,7 @@
 				<li class="nav-item">
 					<div class="btn-group nav-link" role="group">
 						<button id="btnGroupDrop1" type="button"
-							class="btn btn-primary
-dropdown-toggle" data-toggle="dropdown"
+							class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false">
 							<%=username%>
 						</button>
@@ -100,9 +99,6 @@ dropdown-toggle" data-toggle="dropdown"
 	type="text/javascript"></script>
 <script src="../JavaScript/Shop.js" type="text/javascript"></script>
 <script type="text/javascript">
-	//$(document).ready(function() {
-		//alert("menu");
 		updateItemsCount();
-	//});
 </script>
 

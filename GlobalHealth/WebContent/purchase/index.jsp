@@ -12,14 +12,21 @@
 <title>Shop Homepage - Start Bootstrap Template</title>
 
 <!-- Bootstrap core CSS -->
-<!-- 
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
- -->
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- Font Awesome -->
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	rel="stylesheet" />
+<!-- Google Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
+	rel="stylesheet" />
+<!-- MDB -->
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+	rel="stylesheet" />
 
 <!-- Custom styles for this template -->
-<link href="../css/shop-homepage.css" rel="stylesheet">
+<link href="../Css/cart.css" rel="stylesheet">
 
 </head>
 
@@ -27,19 +34,9 @@
 	<!-- Navigation -->
 	<jsp:include page="../Components/NavGlobal.jsp"></jsp:include>
 	
-	<!-- Page Content -->
-	<link href="../Css/cart.css" rel="stylesheet">
-	<link
-		href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		rel="stylesheet" id="bootstrap-css">
-	<script
-		src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<!------ Include the above in your HEAD tag ---------->
 
-	<script src="https://use.fontawesome.com/c560c025cf.js"></script>
 
-	<br /> <br /> <br />
+	<br /> <br /> <br/>
 	<div class="container">
 		<div class="row">
 		
@@ -90,10 +87,11 @@
 	
 
 	<!-- Bootstrap core JavaScript -->
-	<!--  
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	-->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+
+	<script src="https://use.fontawesome.com/c560c025cf.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -104,7 +102,6 @@
 		$(document).ready(function() {
 			getPurchases();
 			getItems(0);
-			//updateItemsCount();
 		});
 	</script>
 
