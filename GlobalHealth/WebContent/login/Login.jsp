@@ -59,7 +59,7 @@
 		<div class="tab-content container">
 			<div class="tab-pane fade show active" id="pills-login"
 				role="tabpanel" aria-labelledby="tab-login">
-				<form  action="./j_security_check" method="post">
+				<form  action="j_security_check" method="post">
 					<div class="text-center mb-3">
 						<p>Iniciar con:</p>
 					

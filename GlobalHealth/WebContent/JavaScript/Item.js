@@ -26,7 +26,7 @@ function getProductById(product_id){
     		var icon = data[row].icon;
     		var media = data[row].media;
     		
-    		$("#product_image").attr('src','../fotos/' + icon);   
+    		$("#product_image").attr('src','' + icon);   
     		$("#product_name").text(name);
     		$("#product_price").text('$ ' + pricing.toFixed(2));
     		$("#product_description").text(long_description);
@@ -56,9 +56,27 @@ function getReviews(product_id){
     		var created_at_text = data[row].created_at_text;
     		
     		var review = '';
-    		review += '<hr>';
-    		review += '<p>' + comment + '</p>';
-    		review += '<small class="text-muted">Posted by ' + username + ' on ' + created_at_text + '</small>';         
+    		review += '<div class="card mt-5">';
+    		review += '<h3 class="text-center">Comentarios</h3>';
+    		review += '<div class="card mb-3">';
+    		review += '<div class="row g-0">';
+    		review += '<div class="col-lg-4 d-flex justify-content-center">';
+    		review += '<div>';
+    		review += '<img src="https://pbs.twimg.com/profile_images/1372388342952824833/ln8oD9IA_400x400.jpg" alt="..." class="img-fluid rounded-circle" width="150px" />';
+    		review += '</div>';
+    		review += '</div>';
+    		review += '<div class="col-lg-8">';
+    		review += '<div class="card-body">';
+    		review += '<h5 class="card-title">'+ comment +'</h5>';
+    		review += '<p class="card-text"><small class="text-muted"> '+ created_at_text +' </small></p>';
+    		review += '<p class="card-text"><small class="text-muted"> '+ username  +'</small></p>';
+    		review += '</div>';
+    		review += '</div>';
+    		review += '</div>';
+    		review += '</div>';
+    		review += '</div>';
+    		review += '</div>';
+    		        
     
     		$("#div_reviews").append(review);
     	}

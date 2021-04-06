@@ -1,4 +1,8 @@
 var data;
+
+$("#success-alert").hide();
+$("#error-alert").hide();
+
 function getItems(){
     $.getJSON("../ws/cart/list", function(result){
     	data = result.data; 
@@ -17,7 +21,7 @@ function getItems(){
     		var dp = '';
 			dp += '<div id="row_' + product_id + '" class="row">';
     		dp += '<div class="col-12 col-sm-12 col-md-2 text-center">';
-    		dp += '<img class="img-responsive" src="../fotos/' + icon + '" alt="prewiew" width="120" height="80">';
+    		dp += '<img class="img-responsive" src="' + icon + '" alt="prewiew" width="120" height="80">';
     		dp += '</div>';
     		dp += '<div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">';
     		dp += '<h4 class="product-name"><strong>' + name + '</strong></h4>';
@@ -105,7 +109,32 @@ function updateCart(){
 }
 
 function checkout(){
-	$.getJSON("../ws/cart/checkout", function(result){
+	$.getJSON("../ws/purchase/checkout", function(result){
+		var jsonResult = JSON.stringify(result);
+		var parsed = JSON.parse(jsonResult);
+		var success = parsed.success;
+		var message = parsed.message
+		var title = "Success !";
+		if(success == false){
+			title = "Error !";
+		}
+
+		if (success == 1){
+			$("#success_title").text(title);
+			$("#success_message").text(message);
+			$("#success-alert").fadeTo(2000, 500).slideUp(500, function() {
+				$("#success-alert").slideUp(500);
+			});
+		}
+		else{
+			$("#error_title").text(title);
+			$("#error_message").text(message);
+			$("#categoryModal .close").click();
+			$("#error-alert").fadeTo(2000, 500).slideUp(500, function() {
+				$("#error-alert").slideUp(500);
+			});
+		}
+		
 		$("#checkout").addClass("disabled");
 		updateItemsCount();
 	});
